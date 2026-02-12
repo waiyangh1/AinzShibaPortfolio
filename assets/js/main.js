@@ -193,7 +193,7 @@ function init3DCarousel() {
         btn.addEventListener('click', function (e) {
             e.preventDefault();
             e.stopPropagation();
-            const videoUrl = this.getAttribute('data-video');
+            const videoUrl = this.getAttribute('src');
 
             // Create video modal
             const videoModal = document.createElement('div');
@@ -201,8 +201,8 @@ function init3DCarousel() {
             videoModal.innerHTML = `
                 <div class="video-modal__content">
                     <span class="video-modal__close">&times;</span>
-                    <video controls autoplay style="width: 100%; max-height: 80vh;">
-                        <source src="${videoUrl}" type="video/mp4">
+                    <video controls autoplay playsinline style="width: 100%; max-height: 80vh; background: black;">
+                        <source src="${videoUrl}">
                         Your browser does not support the video tag.
                     </video>
                     <p class="video-caption">Gameplay demonstration - Video will play once</p>
