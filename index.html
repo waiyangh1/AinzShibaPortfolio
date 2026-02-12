@@ -35,8 +35,8 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#devlog" class="nav__link">Devlog</a></li>
                         <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#devlog" class="nav__link">Devlog</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                         <li class="nav__item">
@@ -97,84 +97,6 @@
             </div>
         </section>
 
-        <!--===== LATEST DEVLOG =====-->
-        <section class="devlog section" id="devlog">
-            <div class="bd-grid">
-                <h2 class="section-title section-title--glitch">Development Process</h2>
-
-                <div class="devlog__container">
-                    <div class="devlog__main">
-                        <div class="devlog__header">
-                            <div class="devlog__badge">CURRENT PROJECT</div>
-                            <h3 class="devlog__title">Space Survival</h3>
-                            <div class="devlog__meta">
-                                <span class="devlog__date"><i class='bx bx-calendar'></i> Monthly Updates</span>
-                                <span class="devlog__engine"><i class='bx bxl-unity'></i> Unity Engine</span>
-                                <span class="status-badge status--prototype">EARLY</span>
-                            </div>
-                        </div>
-
-                        <div class="devlog__content">
-                            <!-- Watch Gameplay button moved to the top where GIF was -->
-                            <div class="watch-gameplay-placeholder">
-                                <!--<button class="watch-gameplay-btn" data-video="assets/video/space-survival.mp4">
-                                    <i class='bx bxs-video'></i> Watch Gameplay
-                                </button>-->
-                            </div>
-
-                            <!-- Updated Tags with larger size -->
-                            <div class="project-card__tech">
-                                <span class="tech-tag">Unity</span>
-                                <span class="tech-tag">C#</span>
-                                <span class="tech-tag">Patterns</span>
-                            </div>
-
-                            <!-- Project Overview with reduced font size -->
-                            <div class="devlog__overview">
-                                <h4>Project Overview</h4>
-                                <p>Survive and research from unknown virus from deep space</p>
-                            </div>
-
-                            <!-- Unique Systems with reduced font size -->
-                            <div class="highlighted-systems">
-                                <h4><i class='bx bx-star'></i> Unique Systems</h4>
-                                <div class="systems-list">
-                                    <div class="system-item-highlight">
-                                        <h5>Cutomization Equipment and bullet hell system</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Development Team with reduced font size -->
-                            <div class="highlighted-team">
-                                <h4><i class='bx bx-group'></i> Development Team</h4>
-                                <div class="team-list">
-                                    <div class="team-member-highlight">
-                                        <div class="member-avatar">
-                                            <i class='bx bx-code-alt'></i>
-                                        </div>
-                                        <div class="member-details">
-                                            <span class="member-name">AinzShiba</span>
-                                            <span class="member-role">Gameplay Programmer</span>
-                                        </div>
-                                    </div>
-                                    <div class="team-member-highlight">
-                                        <div class="member-avatar">
-                                            <i class='bx bx-palette'></i>
-                                        </div>
-                                        <div class="member-details">
-                                            <span class="member-name">Zayang</span>
-                                            <span class="member-role">Artist</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!--===== PROJECTS =====-->
         <section class="projects section" id="projects">
             <div class="bd-grid">
@@ -199,7 +121,7 @@
 
                                 <div class="project-card__preview">
                                     <div class="watch-gameplay-placeholder">
-                                        <button class="watch-gameplay-btn" data-video="assets/video/strikeofbocs.mp4">
+                                        <button class="watch-gameplay-btn" src="assets/video/strikeofbocs.mp4">
                                             <i class='bx bxs-video'></i> Watch Gameplay
                                         </button>
                                         <a href="https://play.google.com/store/apps/details?id=com.notover.strikeofbocs&hl=en"
@@ -211,6 +133,10 @@
                                         <span class="tech-tag">Unity</span>
                                         <span class="tech-tag">C#</span>
                                     </div>
+                                    <!-- Genre Tags -->
+                                    <div class="project-card__genre">
+                                        <span class="genre-tag">Action</span>
+                                    </div>
                                 </div>
 
                                 <div class="project-card__content">
@@ -221,7 +147,6 @@
 
                                     <div class="highlighted-systems">
                                         <h4><i class='bx bx-star'></i> Unique Systems</h4>
-                                        <!-- Updated to single sentence -->
                                         <div class="systems-list">
                                             <div class="system-item-highlight">
                                                 <h5>Customize Equipment</h5>
@@ -231,7 +156,6 @@
 
                                     <div class="highlighted-team">
                                         <h4><i class='bx bx-group'></i> Development Team</h4>
-                                        <!-- Updated to two members -->
                                         <div class="team-list">
                                             <div class="team-member-highlight">
                                                 <div class="member-avatar">
@@ -267,16 +191,16 @@
                                     <div class="project-card__title-section">
                                         <h3 class="project-card__title">WHER</h3>
                                         <div class="project-card__status">
-                                            <span class="status-badge status--completed">COMPLETED</span>
+                                            <span class="status-badge status--paused">PAUSED</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="project-card__preview">
                                     <div class="watch-gameplay-placeholder">
-                                        <button class="watch-gameplay-btn" data-video="assets/images/WIbZKm.jpg">
+                                        <!--<button class="watch-gameplay-btn" data-video="assets/images/WIbZKm.jpg">
                                             <i class='bx bxs-video'></i> Watch Gameplay
-                                        </button>
+                                        </button>-->
                                         <a href="https://ainzshiba.itch.io/wher"
                                            target="_blank" class="store-btn itch-btn">
                                             <i class='fab fa-itch-io'></i> Itch.io
@@ -288,6 +212,11 @@
                                         <span class="tech-tag">Physics</span>
                                         <span class="tech-tag">AiPathfinding</span>
                                     </div>
+                                    <!-- Genre Tags -->
+                                    <div class="project-card__genre">
+                                        <span class="genre-tag">SinglePlayer</span>
+                                        <span class="genre-tag">Weapons</span>
+                                    </div>
                                 </div>
 
                                 <div class="project-card__content">
@@ -298,7 +227,6 @@
 
                                     <div class="highlighted-systems">
                                         <h4><i class='bx bx-star'></i> Unique Systems</h4>
-                                        <!-- Updated to single sentence -->
                                         <div class="systems-list">
                                             <div class="system-item-highlight">
                                                 <h5>Survival until Morning</h5>
@@ -308,7 +236,6 @@
 
                                     <div class="highlighted-team">
                                         <h4><i class='bx bx-group'></i> Development Team</h4>
-                                        <!-- Updated to two members -->
                                         <div class="team-list">
                                             <div class="team-member-highlight">
                                                 <div class="member-avatar">
@@ -351,7 +278,7 @@
 
                                 <div class="project-card__preview">
                                     <div class="watch-gameplay-placeholder">
-                                        <button class="watch-gameplay-btn" data-video="assets/video/blockdonfall.mp4">
+                                        <button class="watch-gameplay-btn" src="assets/video/blockdontfall.mp4">
                                             <i class='bx bxs-video'></i> Watch Gameplay
                                         </button>
                                     </div>
@@ -359,6 +286,15 @@
                                         <span class="tech-tag">Unity</span>
                                         <span class="tech-tag">C#</span>
                                         <span class="tech-tag">Physics</span>
+                                    </div>
+                                    <!-- Genre Tags -->
+                                    <div class="project-card__genre">
+                                        <span class="genre-tag">Casual</span>
+                                        <span class="genre-tag">Abstract</span>
+                                        <span class="genre-tag">Peaceful</span>
+                                        <span class="genre-tag">Block</span>
+                                        <span class="genre-tag">Stack</span>
+                                        <span class="genre-tag">Offline</span>
                                     </div>
                                 </div>
 
@@ -370,7 +306,6 @@
 
                                     <div class="highlighted-systems">
                                         <h4><i class='bx bx-star'></i> Unique Systems</h4>
-                                        <!-- Updated to single sentence -->
                                         <div class="systems-list">
                                             <div class="system-item-highlight">
                                                 <h5>Different block shapes and weather system</h5>
@@ -380,7 +315,6 @@
 
                                     <div class="highlighted-team">
                                         <h4><i class='bx bx-group'></i> Development Team</h4>
-                                        <!-- Updated to two members -->
                                         <div class="team-list">
                                             <div class="team-member-highlight">
                                                 <div class="member-avatar">
@@ -423,7 +357,7 @@
 
                                 <div class="project-card__preview">
                                     <div class="watch-gameplay-placeholder">
-                                        <button class="watch-gameplay-btn" data-video="assets/video/cyberdrift.mp4">
+                                        <button class="watch-gameplay-btn" src="assets/video/FireBall!Doge.mp4">
                                             <i class='bx bxs-video'></i> Watch Gameplay
                                         </button>
                                     </div>
@@ -431,6 +365,14 @@
                                         <span class="tech-tag">Unity</span>
                                         <span class="tech-tag">C#</span>
                                         <span class="tech-tag">Physics</span>
+                                    </div>
+                                    <!-- Genre Tags -->
+                                    <div class="project-card__genre">
+                                        <span class="genre-tag">HyperCasual</span>
+                                        <span class="genre-tag">SinglePlayer</span>
+                                        <span class="genre-tag">Stylized</span>
+                                        <span class="genre-tag">Offline</span>
+                                        <span class="genre-tag">Action</span>
                                     </div>
                                 </div>
 
@@ -442,7 +384,6 @@
 
                                     <div class="highlighted-systems">
                                         <h4><i class='bx bx-star'></i> Unique Systems</h4>
-                                        <!-- Updated to single sentence -->
                                         <div class="systems-list">
                                             <div class="system-item-highlight">
                                                 <h5>Greed system</h5>
@@ -452,7 +393,6 @@
 
                                     <div class="highlighted-team">
                                         <h4><i class='bx bx-group'></i> Development Team</h4>
-                                        <!-- Updated to two members -->
                                         <div class="team-list">
                                             <div class="team-member-highlight">
                                                 <div class="member-avatar">
@@ -493,6 +433,94 @@
                         <div class="carousel-dot" data-index="1"></div>
                         <div class="carousel-dot" data-index="2"></div>
                         <div class="carousel-dot" data-index="3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== LATEST DEVLOG =====-->
+        <section class="devlog section" id="devlog">
+            <div class="bd-grid">
+                <h2 class="section-title section-title--glitch">Development Process</h2>
+
+                <div class="devlog__container">
+                    <div class="devlog__main">
+                        <div class="devlog__header">
+                            <div class="devlog__badge">CURRENT PROJECT</div>
+                            <h3 class="devlog__title">Space Survival</h3>
+                            <div class="devlog__meta">
+                                <span class="devlog__date"><i class='bx bx-calendar'></i> Monthly Updates</span>
+                                <span class="devlog__engine"><i class='bx bxl-unity'></i> Unity Engine</span>
+                                <span class="status-badge status--concept">CONCEPT</span>
+                            </div>
+                        </div>
+
+                        <div class="devlog__content">
+                            <!-- Watch Gameplay button placeholder -->
+                            <div class="watch-gameplay-placeholder">
+                                <!--<button class="watch-gameplay-btn" data-video="assets/video/space-survival.mp4">
+                                    <i class='bx bxs-video'></i> Watch Gameplay
+                                </button>-->
+                            </div>
+
+                            <!-- Tech Tags -->
+                            <div class="project-card__tech">
+                                <span class="tech-tag">Unity</span>
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">Patterns</span>
+                            </div>
+
+                            <!-- Genre Tags -->
+                            <div class="project-card__genre">
+                                <span class="genre-tag">RolePlaying</span>
+                                <span class="genre-tag">Roguelike</span>
+                                <span class="genre-tag">SinglePlayer</span>
+                                <span class="genre-tag">Weapons</span>
+                                <span class="genre-tag">Gun</span>
+                                <span class="genre-tag">Immersive</span>
+                            </div>
+
+                            <!-- Project Overview -->
+                            <div class="devlog__overview">
+                                <h4>Project Overview</h4>
+                                <p>Survive and research from unknown virus from deep space</p>
+                            </div>
+
+                            <!-- Unique Systems -->
+                            <div class="highlighted-systems">
+                                <h4><i class='bx bx-star'></i> Unique Systems</h4>
+                                <div class="systems-list">
+                                    <div class="system-item-highlight">
+                                        <h5>Cutomization Equipment and bullet hell system</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Development Team -->
+                            <div class="highlighted-team">
+                                <h4><i class='bx bx-group'></i> Development Team</h4>
+                                <div class="team-list">
+                                    <div class="team-member-highlight">
+                                        <div class="member-avatar">
+                                            <i class='bx bx-code-alt'></i>
+                                        </div>
+                                        <div class="member-details">
+                                            <span class="member-name">AinzShiba</span>
+                                            <span class="member-role">Gameplay Programmer</span>
+                                        </div>
+                                    </div>
+                                    <div class="team-member-highlight">
+                                        <div class="member-avatar">
+                                            <i class='bx bx-palette'></i>
+                                        </div>
+                                        <div class="member-details">
+                                            <span class="member-name">Zayang</span>
+                                            <span class="member-role">Artist</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -683,7 +711,7 @@
                         </div>
                     </div>
 
-                    <!-- Featured Games (moved from footer) -->
+                    <!-- Featured Games -->
                     <div class="about__links">
                         <h4>Featured Games</h4>
                         <div class="connect-links">
@@ -710,7 +738,7 @@
                             <a href="#devlog" class="connect-link">
                                 <i class='bx bxs-game'></i>
                                 <span>Space Survival</span>
-                                <small>Early</small>
+                                <small>Concept</small>
                             </a>
                         </div>
                     </div>
@@ -767,9 +795,6 @@
                                 <a href="https://discord.gg/3jXSCp6y" target="_blank" class="social-link">
                                     <i class='bx bxl-discord'></i>
                                 </a>
-                                <!--<a href="https://twitter.com/alexchen_dev" target="_blank" class="social-link">
-                                    <i class='bx bxl-twitter'></i>
-                                </a>-->
                             </div>
                         </div>
                     </div>
@@ -834,8 +859,8 @@
             <div class="footer__links">
                 <h4 class="footer__title">Navigation</h4>
                 <a href="#home" class="footer__link">Home</a>
-                <a href="#devlog" class="footer__link">Devlog</a>
                 <a href="#projects" class="footer__link">Projects</a>
+                <a href="#devlog" class="footer__link">Devlog</a>
                 <a href="#skills" class="footer__link">Skills</a>
                 <a href="#contact" class="footer__link">Contact</a>
             </div>
@@ -864,9 +889,6 @@
                 <a href="https://discord.gg/3jXSCp6y" target="_blank" class="social-link">
                     <i class='bx bxl-discord'></i>
                 </a>
-                <!--<a href="https://twitter.com/alexchen_dev" target="_blank" class="footer__icon" title="Twitter">
-        <i class='bx bxl-twitter'></i>
-    </a>-->
             </div>
 
             <div class="footer__legal">
